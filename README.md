@@ -230,64 +230,6 @@ The frontend can be deployed to:
 5. **Frontend displays** the report with charts and recommendations
 6. **User can download** the report as JSON
 
-## 📝 Example Request
-
-```json
-{
-  "company_name": "TechCorp Inc",
-  "industry": "technology",
-  "employees": 500,
-  "annual_revenue": 50000000,
-  "current_tech_maturity": 7,
-  "quantum_awareness": true,
-  "has_it_team": true,
-  "budget_for_quantum": 500000,
-  "primary_use_case": "Optimization problems",
-  "timeline_expectations": "24 months"
-}
-```
-
-## 📡 Example Response
-
-```json
-{
-  "company_name": "TechCorp Inc",
-  "analysis_date": "2026-02-14",
-  "readiness_level": "intermediate",
-  "overall_score": 65.5,
-  "readiness_scores": [
-    {
-      "category": "Technical Infrastructure",
-      "score": 75.0,
-      "recommendation": "Upgrade cloud infrastructure and security protocols"
-    }
-  ],
-  "key_findings": [
-    "Company operates in TECHNOLOGY industry",
-    "Organization size: 500 employees",
-    "Leadership has quantum computing awareness",
-    "Dedicated IT team available for implementation",
-    "Strong existing technology infrastructure"
-  ],
-  "recommendations": [
-    "Establish a quantum computing task force",
-    "Partner with quantum technology vendors",
-    "Develop a multi-year quantum strategy"
-  ],
-  "risk_factors": [
-    "Limited organizational experience with quantum technologies"
-  ],
-  "implementation_roadmap": [
-    "Phase 1: Assessment & Planning (Months 1-3)",
-    "Phase 2: Pilot Project (Months 4-12)",
-    "Phase 3: Team Building & Training (Months 6-18)",
-    "Phase 4: Production Implementation (Months 13-24)",
-    "Phase 5: Optimization & Scaling (Months 18+)"
-  ],
-  "estimated_timeline": "24-36 months",
-  "budget_estimate": 1500000
-}
-```
 
 ## 🎨 UI Features
 
@@ -299,19 +241,8 @@ The frontend can be deployed to:
 - **Progress Bars** - Visual score representation
 - **Dark/Light Consistency** - Professional appearance
 
-## 🔐 Security Considerations
 
-- CORS properly configured
-- Input validation via Pydantic
-- Trusted host middleware
-- No sensitive data in frontend
-- Environment variables for configuration
 
-## 📚 Documentation
-
-- **Swagger/OpenAPI**: Available at `http://localhost:8000/docs`
-- **ReDoc**: Available at `http://localhost:8000/redoc`
-- **Source Code Comments**: Extensive docstrings throughout
 
 ## 🐛 Troubleshooting
 
@@ -347,18 +278,7 @@ npm install
 - [ ] Custom assessment templates
 - [ ] Integration with quantum cloud providers
 
-## 📄 License
 
-This project is open source and available under the MIT License.
-
-## 👥 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Support
-
-For issues or questions, please open an issue in the repository.
 
 ---
 
-**Built with ⚛️ Quantum Technology & 🚀 Modern Web Stack**
